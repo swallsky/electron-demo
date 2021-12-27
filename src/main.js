@@ -9,7 +9,7 @@ function createWindow () {
     width:800,
     height:600,
     webPreferences: {
-      preload: path.join(__dirname,'mdls','preload.js')
+      preload: path.join(__dirname,'nodes','preload.js')
     }
   })
   win.loadFile(path.join(__dirname,'index.html'))
